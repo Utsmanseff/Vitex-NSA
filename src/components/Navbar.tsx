@@ -46,7 +46,7 @@ export default function Navbar() {
     { title: "Beranda", href: "#home" },
     { title: "Tentang", href: "#about" },
     { title: "Produk", href: "#produk" },
-    { title: "Kontak", href: "#kontak" }
+    { title: "Panduan Keamanan", href: "#safety" }
   ];
 
   const isActive = (href) => pathname === href || pathname === "/" && href === "#home";

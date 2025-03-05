@@ -104,7 +104,7 @@ export default function Safety() {
   };
 
   return (
-    <section id="keamanan" className="py-20 bg-gray-100">
+    <section id="safety" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-black text-center mb-12 text-green-900">
           Panduan Keamanan Vitex NSA

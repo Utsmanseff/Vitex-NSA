@@ -32,18 +32,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/products" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="#produk" className="text-gray-300 hover:text-white transition-colors">
                   Produk
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="#about" className="text-gray-300 hover:text-white transition-colors">
                   Tentang Kami
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
-                  Hubungi Kami
+                <Link href="#safety" className="text-gray-300 hover:text-white transition-colors">
+                  Panduan Keamanan
                 </Link>
               </li>
             </ul>
@@ -76,20 +76,7 @@ export default function Footer() {
             © {currentYear} Vitex NSA. Dikembangkan oleh{" "}
             <span className="font-medium text-green-400">Utsmnseff</span>
           </p>
-          <div className="mt-4 md:mt-0">
-            <ul className="flex space-x-6 text-sm text-gray-400">
-              <li>
-                <Link href="/privacy" className="hover:text-white transition-colors">
-                  Kebijakan Privasi
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms" className="hover:text-white transition-colors">
-                  Syarat & Ketentuan
-                </Link>
-              </li>
-            </ul>
-          </div>
+          
         </div>
       </div>
     </footer>
