@@ -7,7 +7,7 @@ export default function Header() {
   const [isHovered, setIsHovered] = useState(false);
   
   const handleWhatsAppContact = () => {
-    const whatsappNumber = '+6282352734167';
+    const whatsappNumber = '+6285796966254';
     const waLink = `https://wa.me/${whatsappNumber}`;
     window.open(waLink, '_blank');
   };
