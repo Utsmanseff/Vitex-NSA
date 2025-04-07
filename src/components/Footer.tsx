@@ -72,11 +72,17 @@ export default function Footer() {
       {/* Copyright Bar */}
       <div className="border-t border-gray-700 py-6">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-400">
-            © {currentYear} Vitex NSA. Dikembangkan oleh{" "}
-            <span className="font-medium text-green-400">Utsmnseff</span>
-          </p>
-          
+        <p className="text-sm text-gray-400">
+          © {currentYear} Vitex NSA. Dikembangkan oleh{" "}
+          <a 
+            href="https://www.instagram.com/utsmnseff" 
+            className="font-medium text-green-400 hover:underline"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Utsmnseff
+          </a>
+        </p>      
         </div>
       </div>
     </footer>
